@@ -6,27 +6,27 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="header">
-            <div class="left-header">
-              <div class="logo">
-                Header Logo
-              </div>
+        <div class="container">
+            <div class="header">
+                <div class="left-header">
+                  <div class="logo">
+                    Header Logo
+                  </div>
+                </div>
+                <div class="right-header">
+                    <ul>
+                        <li><a href="google.com">header link one</a></li>
+                        <li><a href="google.com">header link two</a></li>
+                        <li><a href="google.com">header link three</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="right-header">
-                <ul class="hlinks">
-                    <li><a href="google.com">header link one</a></li>
-                    <li><a href="google.com">header link two</a></li>
-                    <li><a href="google.com">header link three</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="body">
             <!--display:flex
             justify-content: space-evenly-->
             <div class="container-one">
                 <!--flex-direction: column;-->
                 <div class="container-one-content">
-                    <h1>This website is awesome</h1>
+                    <div>This website is awesome</div>
                     <p>
                         Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
@@ -34,7 +34,7 @@
                         incididunt ut labore et dolore 
                         magna aliqua.
                     </p>
-                    <button class="sign-up-one">Sign up</button>
+                    <button>Sign up</button>
                 </div>
                 <div class="container-one-img">
                     <img src="./images/sand.jpg" alt="sand">
@@ -42,7 +42,7 @@
             </div>
             <div class="container-two">
                 <div class="container-two-header">
-                    <h1>Some random information.</h1>
+                    <div>Some random information.</div>
                 </div>
                 <!--display flex flex-direction col-->
                 <div class="container-two-content">
@@ -51,19 +51,19 @@
                 !!!!!NEED TO WORK ON IT !!!!!-->
                     <div class="card">
                         <img src="./images/img-1.jpeg" alt="img-1">
-                        <div class="box-subtext">this is some subtext under an illustration or image</div>
+                        <div class="card-subtext">this is some subtext under an illustration or image</div>
                     </div>
                     <div class="card">
                         <img src="./images/img-2.jpeg" alt="img-2">
-                        <div class="box-subtext">this is some subtext under an illustration or image</div>
+                        <div class="card-subtext">this is some subtext under an illustration or image</div>
                     </div>
                     <div class="card">
                         <img src="./images/img-3.jpeg" alt="img-3">
-                        <div class="box-subtext">this is some subtext under an illustration or image</div>
+                        <div class="card-subtext">this is some subtext under an illustration or image</div>
                     </div>
                     <div class="card">
                         <img src="./images/img-4.jpeg" alt="img-4">
-                        <div class="box-subtext">this is some subtext under an illustration or image</div>
+                        <div class="card-subtext">this is some subtext under an illustration or image</div>
                     </div>
                 </div>
             </div>
@@ -74,13 +74,13 @@
                         Maybe it's just filling up space, or maybe people will actually 
                         read it. Who knows? All I know is that it looks nice.
                     </p>
-                    <h3>Thor, God of Thunder</h3>
+                    <h1>-Thor, God of Thunder</h1>
                 </div>
             </div>
             <div class="container-four">
                 <div class="container-four-content">
                     <div class="container-four-words">
-                        <div>Call to action! It's time!</div>
+                        <h3>Call to action! It's time!</h3>
                         <div>Sign up for our product by clicking the button right 
                             over there!
                         </div>
@@ -88,9 +88,9 @@
                     <button class="sign-up-four">Sign up</button>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            Copyright @ The Odin Project 2021
+            <div class="footer">
+                Copyright @ The Odin Project 2021
+            </div>
         </div>
     </body>
 </html>
